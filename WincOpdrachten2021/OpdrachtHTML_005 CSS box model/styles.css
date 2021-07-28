@@ -1,0 +1,21 @@
+.box-model-properties {
+    border: 5px solid rgb(212, 212, 230);
+    margin: 20px;
+    padding: 10px;
+}
+
+.center-title {
+    color: red;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 10px;
+}
+
+#description {
+    font-style: italic; 
+    font-size: 12px;
+}
