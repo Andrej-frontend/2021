@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(208, 233, 119, 0.842);
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.box-model-properties {
+    border: 5px solid rgb(173, 173, 226);
+    margin: 20px;
+    padding: 10px;
+}
+
+.center-title {
+    color: red;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(115, 144, 190);
+    color:#f1d873;
+}
+
+#description {
+    font-style: italic; 
+    font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: blueviolet;
+        color: lightgrey;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .box-model-properties {
+        border: 5px solid rgb(24, 24, 201);
+    }
+}
+   
